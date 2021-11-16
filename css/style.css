@@ -1,8 +1,59 @@
-h1 {
-	background-color: red;
+html {
+	background: #1e1e1e
+}
+
+body {
+	font-family: "Cormorant Garamond", serif;
+	color: #676767
+}
+
+header {
+	display: flex;
+	padding: 15px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	height: 40px;
+	background: #1e1e1e;
+}
+
+#logo {
+	flex: 1 0 auto;
+}
+
+#logo a {
+	color: #656565;
+	text-decoration: none;
+}
+
+header h3 {
+	flex: 1 1 auto;
+	text-align: right;
+}
+
+nav {
+	position: fixed;
+	top: 80px;
+	left: 0;
+	bottom: 0;
+	width: 200px;
+	padding: 10px 20px 0;
+}
+
+.Nav span {
+	color: #a7a7a7;
+	text-decoration: none;
+}
+
+#photos {
+	margin-left: 200px;
+	padding-top: 80px;
+	padding-right: 20px;
 }
 
 #photos img {
-	max-width: 100%;
+	width: 200px;
 	height: auto;
 }
