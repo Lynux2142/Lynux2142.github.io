@@ -11,6 +11,7 @@ const Holland = [
 	{src: path + 'IMG_7962.jpg'},
 	{src: path + 'IMG_7981.jpg'},
 	{src: path + 'IMG_8013.jpg'},
+	{src: path + 'IMG_8014.jpg'},
 	{src: path + 'IMG_8015.jpg'},
 	{src: path + 'IMG_8016.jpg'},
 	{src: path + 'IMG_8048.jpg'},

@@ -73,13 +73,26 @@ nav {
 	margin-left: 200px;
 	padding-top: 80px;
 	padding-right: 20px;
+	flex-direction: row;
 	flex-wrap: wrap;
+	align-items: center;
+}
+
+#photos div {
+	flex: 1;
 }
 
 #photos img {
-	width: 200px;
+	width: 95%;
+	min-width: 200px;
 	height: auto;
 	margin: 5px;
+	transition: .3s;
+	cursor: pointer;
+}
+
+#photos img:hover {
+	opacity: .5;
 }
 
 #photos p {
